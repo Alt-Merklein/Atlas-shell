@@ -1,1 +1,2 @@
-Sou input pra um programa
+"hello"
+t pra um programa
