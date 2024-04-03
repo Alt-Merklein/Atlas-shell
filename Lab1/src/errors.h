@@ -2,7 +2,6 @@
 
 enum ErrorType {
     ERROR_READ_INPUT,
-    ERROR_EXECV,
     ERROR_OPEN,
 };
 
