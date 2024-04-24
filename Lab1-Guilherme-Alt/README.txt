@@ -1,7 +1,7 @@
 To compile the shell, use:
 "make atlash"
 
-To compile a test file that accepts input from fd 0 and outputs it to fd 0, use:
+To compile a test file that accepts input from fd 0 and outputs it to fd 1, use:
 "make test"
 
 
@@ -17,4 +17,9 @@ Some problems that were not solved for the time being:
       file contents are not deleted, just ovewritten. If the original
       contents of the file were "File Contents", the contents after
       writing to it will be "helloworldnts".
+
+    - Piping only working on one level, so commands like
+    "/usr/bin/ls | /usr/bin/rev > output.txt" will work, but
+    "/usr/bin/ls | /usr/bin/rev | /usr/bin/rev" will result in an
+    endless waiting for input
 

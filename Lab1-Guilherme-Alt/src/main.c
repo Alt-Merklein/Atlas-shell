@@ -32,11 +32,6 @@ int main(int argc, char* argv[]) {
         }
         evaluate(input, inputSize);
         
-        /*result = execv(cmdArgv[0], cmdArgv);
-        if (result == -1) {
-            handleError(ERROR_EXECV);
-        }*/
-        //write(STDOUT, result, sizeof(result));
     }
     return 0;
 }

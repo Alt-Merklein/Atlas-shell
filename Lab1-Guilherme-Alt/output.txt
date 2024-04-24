@@ -1,0 +1,7 @@
+README.txt
+bin
+debug.txt
+input.txt
+makefile
+output.txt
+src
